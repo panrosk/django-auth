@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pillabackend"
+version = "0.1.0"
+description = "Loyalty programa building"
+authors = ["Oscar <oskrf13@gmail.com>"]
+license = "GNU Affero General Public License (AGPL),"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+coreapi = "^2.3.3"
+drf-spectacular = "^0.27.1"
+djangorestframework-simplejwt = "^5.3.1"
+
+[tool.poetry.group.dev.dependencies]
+Django = "^5.0.3"
+djangorestframework = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
